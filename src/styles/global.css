@@ -1,0 +1,47 @@
+:root {
+  --white: #fff;
+  --gray-100: teal;
+  --gray-200: #e2e8f0;
+  --gray-400: #a0aec0;
+  --gray-500: #718096;
+  --gray-700: #ffffff;
+  --primary: #000000;
+  --primary-light: #7086ff;
+  --primary-dark: #1834cc;
+  --danger: #e53e3e;
+  --danger-light: #f9eaea;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--gray-700);
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+
+.spin {
+  animation: spin 1s infinite linear;
+  -webkit-animation: spin 1s infinite linear;
+  -moz-animation: spin 1s infinite linear;
+}
