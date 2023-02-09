@@ -2,11 +2,11 @@ import React from 'react'
 import Form from 'react-bootstrap/Form';
 import '../styles/FormSelects.css'
 
-const FormSelects = () => {
+const FormSelects = (props) => {
   return (
       <div className='options'>
         <Form.Select aria-label="Default select example">
-          <option selected disabled >Selecione a Turma</option>
+          <option selected disabled>{props.title}</option>
           <option value='1 MKT A'>1º MKT A</option>
           <option value='1 MKT B'>1º MKT B</option>
           <option value='1 TDS A'>1º TDS A</option>

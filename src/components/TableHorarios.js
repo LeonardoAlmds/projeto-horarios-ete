@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/Table.css'
 import { Table } from 'react-bootstrap'
 
-const Tables = () => {
+const TableHorarios = (props) => {
   return (
     <div className='horarios'>
        <Table className='table'>
@@ -47,46 +47,46 @@ const Tables = () => {
              
             </tr>
             <tr>
-              <td>Quarta</td>
-              <td>Quarta</td>
-              <td>Quarta</td>
-              <td>Quarta</td>
-              <td>Quarta</td>
-              <td>Quarta</td>
-              <td>Quarta</td>
-              <td>Quarta</td>
-              <td>Quarta</td>
-              <td>Quarta</td>
+              <td data-title='Dia da Semana'>Quarta</td>
+              <td data-title='1º Aula'>Quarta</td>
+              <td data-title='2º Aula'>Quarta</td>
+              <td data-title='3º Aula'>Quarta</td>
+              <td data-title='4º Aula'>Quarta</td>
+              <td data-title='5º Aula'>Quarta</td>
+              <td data-title='6º Aula'>Quarta</td>
+              <td data-title='7º Aula'>Quarta</td>
+              <td data-title='8º Aula'>Quarta</td>
+              <td data-title='9º Aula'>Quarta</td>
             </tr>
             <tr>
-              <td>Quinta</td>
-              <td>Quinta</td>
-              <td>Quinta</td>
-              <td>Quinta</td>
-              <td>Quinta</td>
-              <td>Quinta</td>
-              <td>Quinta</td>
-              <td>Quinta</td>
-              <td>Quinta</td>
-              <td>Quinta</td>
+              <td data-title='Dia da Semana'>Quinta</td>
+              <td data-title='1º Aula'>Quinta</td>
+              <td data-title='2º Aula'>Quinta</td>
+              <td data-title='3º Aula'>Quinta</td>
+              <td data-title='4º Aula'>Quinta</td>
+              <td data-title='5º Aula'>Quinta</td>
+              <td data-title='6º Aula'>Quinta</td>
+              <td data-title='7º Aula'>Quinta</td>
+              <td data-title='8º Aula'>Quinta</td>
+              <td data-title='9º Aula'>Quinta</td>
             </tr>
             <tr>
-              <td>Sexta</td>
-              <td>Sexta</td>
-              <td>Sexta</td>
-              <td>Sexta</td>
-              <td>Sexta</td>
-              <td>Sexta</td>
-              <td>Sexta</td>
-              <td>Sexta</td>
-              <td>Sexta</td>
-              <td>Sexta</td>
+              <td data-title='Dia da Semana'>Sexta</td>
+              <td data-title='1º Aula'>Sexta</td>
+              <td data-title='2º Aula'>Sexta</td>
+              <td data-title='3º Aula'>Sexta</td>
+              <td data-title='4º Aula'>Sexta</td>
+              <td data-title='5º Aula'>Sexta</td>
+              <td data-title='6º Aula'>Sexta</td>
+              <td data-title='7º Aula'>Sexta</td>
+              <td data-title='8º Aula'>Sexta</td>
+              <td data-title='9º Aula'>Sexta</td>
               
             </tr>
           </tbody>
         </Table>
     </div>
-  )
+  );
 }
 
-export default Tables
+export default TableHorarios;

@@ -2,25 +2,28 @@ import { BrowserRouter, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
 import './styles/App.css';
-import Tables from './components/Table';
-import FormSelects from './components/FormSelects';
-
+import AppRoutes from './Routes';
+import EteLogo from './images/ETE.png'
 
 const App = () => {
   return (
     <>
-      <div className='wrapper'>
-        <BrowserRouter>
-          <nav>
-            <Link to='/'>Horários dos Alunos</Link>
-            <Link to='/horarioProfessores'>Horários dos Professores</Link>
+      <BrowserRouter>
+        <div className='wrapper'>
+        <nav>
+            <div className='Links'>
+              <img src={EteLogo} alt="logo-ETE"/>
+              <Link to='/'>Horários dos Alunos</Link> <hr/>
+              <Link to='/horarioProfessores'>Horários dos Professores</Link> <hr/>
+              <Link to='/horarioRefeicoes'>Horários das Refeições</Link> <hr/>
+              <Link to='/cardapio'>Cardápio do Dia</Link> <hr/>
+            </div> 
           </nav>
-        </BrowserRouter>
-      </div>
-      <FormSelects />
-      <Tables />
+        </div>
+        <AppRoutes />
+      </BrowserRouter>
     </>
   )
-}
+};
 
-export default App
+export default App;
