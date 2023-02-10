@@ -1,11 +1,14 @@
 import React from 'react'
-import '../styles/Table.css'
+import '../styles/TableHorarios.css'
 import { Table } from 'react-bootstrap'
 
 const TableHorarios = (props) => {
   return (
     <div className='horarios'>
-       <Table className='table'>
+      <h1 className='TitleText'>{props.title}</h1>
+      <hr className='line'/>
+      <hr className='lineMidlle'/>
+        <Table className='table'>
           <thead>
             <tr>
               <th>Dias da Semana</th>

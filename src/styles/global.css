@@ -16,6 +16,21 @@
   --greenPE: #00AD4A;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+  height: 10px;
+  background-color: var(--greenPE);
+}
+
+::-webkit-scrollbar-button {
+  background-color: var(--greenPE);
+  height: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,4 +42,24 @@
 body {
   background-color: var(--white);
   color: var(--gray-700);
+}
+
+.TitleText {
+  color: var(--bluePE);
+  opacity: 1;
+  font-size: 28px;
+  text-align: center;
+}
+
+.line {
+  margin-bottom: -1px;
+  width: 50%;
+  border: 1px solid var(--bluePE);
+  opacity: 1;
+}
+
+.lineMidlle {
+  width: 35%;
+  border: 1px solid var(--bluePE);
+  opacity: 1;
 }

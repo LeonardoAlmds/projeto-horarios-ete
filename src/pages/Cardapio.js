@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cardapio = () => {
   return (
-    <div>Cardapio</div>
+    <div>Cardapio da semana</div>
   )
 }
 

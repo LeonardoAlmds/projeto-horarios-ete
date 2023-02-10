@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Table.css';
 import FormSelects from '../components/FormSelects';
 import TableHorarios from '../components/TableHorarios';
 import { getHorarioList } from '../services/horariosService';
@@ -13,7 +12,9 @@ const Home = () => {
       <FormSelects 
         title='Selecione sua Turma'
       />
-      <TableHorarios />
+      <TableHorarios
+        title='Horário dos Alunos'
+      />
     </>
   )
 };
