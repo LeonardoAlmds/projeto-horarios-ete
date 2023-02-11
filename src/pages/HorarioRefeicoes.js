@@ -9,4 +9,4 @@ const HorarioRefeicoes = () => {
   )
 };
 
-export default HorarioRefeicoes;
+export default HorarioRefeicoes
