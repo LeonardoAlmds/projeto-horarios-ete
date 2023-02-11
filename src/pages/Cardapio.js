@@ -1,8 +1,9 @@
 import React from 'react'
+import CardComp from '../components/CardComp';
 
 const Cardapio = () => {
   return (
-    <div>Cardapio da semana</div>
+    <CardComp/>
   )
 }
 

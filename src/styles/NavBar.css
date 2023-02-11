@@ -35,6 +35,7 @@ nav.wrapper div.Links a {
 
 nav.wrapper div.Links a:hover {
   color: var(--yellowPE);
+  text-decoration: overline;
 }
 
 div.Links hr {
@@ -67,6 +68,7 @@ div.Links .buttonLogin {
   nav.wrapper div.Links {
     flex-direction: column;
     position: unset;
+    margin-top: -15px;
   }
 
   nav.wrapper div.Links a {
@@ -80,6 +82,18 @@ div.Links .buttonLogin {
 
   nav.wrapper nav a:hover::after {
     width: 145%;
+  }
+
+  div.Links hr {
+    display: block;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    border: 1px solid var(--white);
+    opacity: 1;
+  }
+
+  div.Links .buttonLogin {
+    margin-top: 5px;
   }
 }
 
