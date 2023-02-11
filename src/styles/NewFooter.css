@@ -70,44 +70,22 @@
 }
 
 @media (max-width: 1300px) {
-    .contact {
-        height: 500px;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .left {
-        text-align: center;
-        margin: 0 auto;
-        padding: 10px;
-    }
-
-    .left h6 {
-        margin-left: -10px;
-        font-size: 16px;
-    }
-
-    .middle {
-        text-align: center;
-        margin: 0 auto;
-        padding: 10px;
-        margin-bottom: -400px;
-    }
-
-    .middle h4 {
-        font-size: 16px;
-    }
-
-    .right {
-        text-align: center;
-        margin: -20px auto;
-        padding: 10px;
-        transform: translateY(-100px);
-    }
-
-    .right h6 {
-        margin-right: -10px;
-        font-size: 16px;
-    }
+  .contact {
+    align-items: center;
+    flex-direction: column;
+}
+.left {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+.left h6 {
+  margin-left: -10px;
+  font-size: 16px;
+}
+.middle {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
 }
