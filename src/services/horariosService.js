@@ -4,4 +4,3 @@ export async function getHorarioList () {
   if (!response.ok){
     return false;
   }
-}
