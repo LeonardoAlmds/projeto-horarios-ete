@@ -17,6 +17,10 @@
   color: var(--yellowPE);
 }
 
+.imgLeft {
+  margin-right: 0;
+}
+
 .middle {
   margin-bottom: -40px;
   display: flex;
@@ -75,7 +79,6 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        /*margin-bottom: -30px*/
     }
 
     .left {
@@ -90,25 +93,26 @@
     }
 
     .middle {
-        text-align: center;
-        margin: 0 auto;
-        padding: 10px;
-        margin-bottom: -400px;
+      margin: 30px;
+      text-align: center;
+      align-items: flex-end;
     }
 
     .middle h4 {
-        font-size: 16px;
+      font-size: 16px;
     }
 
     .right {
-        text-align: center;
-        margin: -20px auto;
-        padding: 10px;
-        transform: translateY(-100px);
+      text-align: center;
     }
 
     .right h6 {
-        margin-right: -10px;
-        font-size: 16px;
+      font-size: 16px;
     }
+}
+
+@media (max-width: 1300px){
+  .middle h4 {
+    font-size: 12px;
+  }
 }

@@ -1,14 +1,15 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
-import '../styles/TableRefeicoes.css'
+import '../styles/TableGlobal.css'
+import '../styles/TitleTable.css';
 
 const TableRefeicoes = () => {
   return (
-    <div className='horariosRefeicoes'>
+    <div className='titleTop'>
       <h1 className='TitleText'>Horário Semanal do Almoço</h1>
       <hr className='line'/>
       <hr className='lineMidlle'/>
-    <Table className='tableRefeicoes'>
+    <Table className='table'>
       <thead>
           <tr>
             <th>Horário</th>
