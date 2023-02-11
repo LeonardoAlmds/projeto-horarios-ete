@@ -1,0 +1,90 @@
+nav.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 50px 0 0 0;
+  transition: 0.2s ease-in;
+  margin-bottom: 90px;
+}
+
+nav.wrapper::before {
+  content: ' ';
+  background-color: var(--bluePE);
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+nav.wrapper div.Links {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 20px;
+}
+
+nav.wrapper div.Links a {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--white);
+  transition: all 0.2s ease-in;
+  margin: -20px 20px;
+}
+
+nav.wrapper div.Links a:hover {
+  color: var(--yellowPE);
+}
+
+div.Links hr {
+  display: none;
+}
+
+nav.wrapper img {
+  height: 150px;
+  width: 260px;
+  margin-top: -20px;
+  align-items: left;
+  transform: translateX()
+}
+
+div.Links .buttonLogin {
+  margin-top: -5px;
+  border-radius: 20px;
+  width: 100px;
+}
+
+@media (max-width: 1300px) {
+  nav.wrapper {
+    background-color: var(--bluePE);
+    width: 100%;
+    height: 410px;
+    margin-bottom: 60px;
+    flex-direction: column;
+  }
+
+  nav.wrapper div.Links {
+    flex-direction: column;
+    position: unset;
+  }
+
+  nav.wrapper div.Links a {
+    text-align: center;
+    margin: 10px 0 10px 0;
+  }
+
+  nav.wrapper img {
+    transform: translateX(0px) scale(85%);
+  }
+
+  nav.wrapper nav a:hover::after {
+    width: 145%;
+  }
+}
+
+@media (max-width: 360px) {
+  nav.wrapper nav a {
+    font-size: 12px;
+  }
+}
