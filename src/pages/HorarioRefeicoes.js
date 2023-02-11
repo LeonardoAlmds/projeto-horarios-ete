@@ -1,5 +1,4 @@
 import React from 'react'
-import { Table } from 'react-bootstrap'
 import TableRedeicoes from '../components/TableRefeicoes';
 import '../styles/TableRefeicoes.css'
 
@@ -9,4 +8,4 @@ const HorarioRefeicoes = () => {
   )
 };
 
-export default HorarioRefeicoes
+export default HorarioRefeicoes;
