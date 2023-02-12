@@ -21,7 +21,7 @@ const NavBar = () => {
           <Link to='/horarioProfessores'>Horários dos Professores</Link> <hr/>
           <Link to='/horarioRefeicoes'>Horários das Refeições</Link> <hr/>
           <Link to='/cardapio'>Cardápio da Semana</Link> <hr/>
-          <Link to=''><Button variant="success" className='buttonLogin' onClick={handleShow}>Login</Button></Link>
+          <Link to=''><Button variant="danger" className='buttonLogin' onClick={handleShow}>Login</Button></Link>
         </div> 
       </nav>
 

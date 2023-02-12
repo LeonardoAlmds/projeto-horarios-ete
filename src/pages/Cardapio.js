@@ -1,9 +1,9 @@
 import React from 'react'
-import CardComp from '../components/CardComp';
+import TableCardapio from '../components/TableCardapio';
 
 const Cardapio = () => {
   return (
-    <CardComp/>
+    <TableCardapio/>
   )
 }
 

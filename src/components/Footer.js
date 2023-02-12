@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import '../styles/NewFooter.css'
+import '../styles/Footer.css'
 import { BsFillGeoAltFill } from "react-icons/bs";
 
 const Footer = () => {

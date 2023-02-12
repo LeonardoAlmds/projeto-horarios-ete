@@ -56,7 +56,13 @@ div.Links .buttonLogin {
   width: 100px;
 }
 
-@media (max-width: 1300px) {
+@media (min-width: 1610px){
+  nav.wrapper div.Links a {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1250px) {
   nav.wrapper {
     background-color: var(--bluePE);
     width: 100%;
@@ -80,8 +86,9 @@ div.Links .buttonLogin {
     transform: translateX(0px) scale(85%);
   }
 
-  nav.wrapper nav a:hover::after {
-    width: 145%;
+  nav.wrapper div.Links a:hover {
+    color: var(--yellowPE);
+    text-decoration: unset;
   }
 
   div.Links hr {
