@@ -11,18 +11,23 @@ const NavBar = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  /*
+  const [isActive, setIsActive] = useState(false)
+  const burguerClick = () => setIsActive(!isActive)
+  */
+
   return (
     <>
       <nav className='wrapper'>
         <img src={EteLogo} alt="logo-ETE"/>
-        
+
         <div className='Links'>
           <Link to='/'>Horários dos Alunos</Link> <hr/>
           <Link to='/horarioProfessores'>Horários dos Professores</Link> <hr/>
           <Link to='/horarioRefeicoes'>Horários das Refeições</Link> <hr/>
           <Link to='/cardapio'>Cardápio da Semana</Link> <hr/>
           <Link to=''><Button variant="danger" className='buttonLogin' onClick={handleShow}>Login</Button></Link>
-        </div> 
+        </div>
       </nav>
 
     <div>
