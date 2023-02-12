@@ -1,10 +1,10 @@
 import React from 'react'
-import '../styles/TableHorarios.css'
+import '../styles/TableGlobal.css'
 import { Table } from 'react-bootstrap'
 
 const TableHorarios = (props) => {
   return (
-    <div className='horarios'>
+    <div className='titleTop'>
       <h1 className='TitleText'>{props.title}</h1>
       <hr className='line'/>
       <hr className='lineMidlle'/>

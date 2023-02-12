@@ -1,8 +1,9 @@
 import React from 'react'
+import TableCardapio from '../components/TableCardapio';
 
 const Cardapio = () => {
   return (
-    <div>Cardapio da semana</div>
+    <TableCardapio/>
   )
 }
 

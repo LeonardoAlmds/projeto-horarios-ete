@@ -2,14 +2,14 @@ import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
 import AppRoutes from './Routes';
-import HeaderSite from './components/HeaderSite';
+import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
-        <HeaderSite/>
+        <NavBar/>
         <AppRoutes />
         <Footer/>
       </BrowserRouter>
