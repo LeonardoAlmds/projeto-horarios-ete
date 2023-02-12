@@ -2,6 +2,11 @@
   border: 1px solid var(--bluePE);
   border-radius: 10px;
   max-width: 1000px;
+  margin-top: 10px;
+}
+
+.table th, td {
+  text-align: center;
 }
 
 tbody tr:nth-child(even){
