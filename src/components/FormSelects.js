@@ -24,4 +24,4 @@ const FormSelects = (props) => {
   )
 }
 
-export default FormSelects
+export default FormSelects;

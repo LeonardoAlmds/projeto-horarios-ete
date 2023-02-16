@@ -21,7 +21,7 @@ nav.wrapper div.Links {
   display: flex;
   flex-direction: row;
   position: absolute;
-  right: 20px;
+  right: 160px;
 }
 
 nav.wrapper div.Links a {
@@ -50,15 +50,20 @@ nav.wrapper img {
   transform: translateX()
 }
 
-div.Links .buttonLogin {
-  margin-top: -5px;
+nav.wrapper .buttonLogin {
   border-radius: 20px;
+  margin-top: -20px;
   width: 100px;
+  position: absolute;
+  right: 40px;
 }
 
 @media (min-width: 1610px){
   nav.wrapper div.Links a {
     font-size: 24px;
+  }
+  nav.wrapper .buttonLogin {
+    margin-top: 0;
   }
 }
 
@@ -99,8 +104,10 @@ div.Links .buttonLogin {
     opacity: 1;
   }
 
-  div.Links .buttonLogin {
-    margin-top: 5px;
+  nav.wrapper .buttonLogin {
+    margin-top: 310px;
+    left: 50%;
+    transform: translate(-50%);
   }
 }
 
