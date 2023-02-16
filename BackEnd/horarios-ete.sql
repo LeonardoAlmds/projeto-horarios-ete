@@ -1,0 +1,76 @@
+CREATE DATABASE horarios;
+USE horarios;
+
+CREATE TABLE HorarioMateriaAlunos(
+	Dia_da_semana
+		VARCHAR(13) NOT NULL,
+	Turma 
+		VARCHAR(13) NOT NULL,
+	Aula_1
+		VARCHAR(10) NOT NULL,
+	Aula_2
+		VARCHAR(10) NOT NULL,
+	Aula_3
+		VARCHAR(10) NOT NULL,
+	Aula_4
+		VARCHAR(10) NOT NULL,
+	Aula_5
+		VARCHAR(10) NOT NULL,
+	Aula_6
+		VARCHAR(10) NOT NULL,
+	Aula_7
+		VARCHAR(10) NOT NULL,
+	Aula_8
+		VARCHAR(10) NOT NULL,
+	Aula_9
+		VARCHAR(10) NOT NULL
+);
+
+CREATE TABLE HorarioMateriaProfessores(
+	Professor
+		VARCHAR(10) NOT NULL,
+	Dia_da_semana
+		VARCHAR(13) NOT NULL,
+	Aula_1
+		VARCHAR(10) NOT NULL,
+	Aula_2
+		VARCHAR(10) NOT NULL,
+	Aula_3
+		VARCHAR(10) NOT NULL,
+	Aula_4
+		VARCHAR(10) NOT NULL,
+	Aula_5
+		VARCHAR(10) NOT NULL,
+	Aula_6
+		VARCHAR(10) NOT NULL,
+	Aula_7
+		VARCHAR(10) NOT NULL,
+	Aula_8
+		VARCHAR(10) NOT NULL,
+	Aula_9
+		VARCHAR(10) NOT NULL
+);
+
+CREATE TABLE HorarioSemanalAlmoco(
+	Dia_da_semana
+		VARCHAR(13) NOT NULL,
+	`12:00`
+		VARCHAR(10) NOT NULL,
+	`12:20`
+		VARCHAR(10) NOT NULL,
+	`12:53`
+		VARCHAR(10) NOT NULL
+);
+
+CREATE TABLE CardapioSemanal(
+	Dia_da_semana
+		VARCHAR(13) NOT NULL,
+	Café_da_Manhã
+		VARCHAR(255) NOT NULL,
+	Almoço
+		VARCHAR(255) NOT NULL,
+	Lanche_da_Tarde
+		VARCHAR(255) NOT NULL,
+	Bebida
+		VARCHAR(25) NOT NULL
+);
