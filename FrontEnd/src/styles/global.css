@@ -19,16 +19,19 @@
 ::-webkit-scrollbar {
   width: 10px;
   background-color: var(--white);
+  transition: 0.2s ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb {
   height: 10px;
   background-color: var(--greenPE);
+  transition: 0.2s ease-in-out;
 }
 
 ::-webkit-scrollbar-button {
   background-color: var(--greenPE);
   height: 10px;
+  transition: 0.2s ease-in-out;
 }
 
 * {

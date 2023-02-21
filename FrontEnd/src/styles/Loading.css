@@ -1,0 +1,16 @@
+div.Loading_container {
+    height: 100vh;
+    text-align: center;
+    background-color: var(--bluePE);
+    padding: 180px;
+}
+
+div.Loading_container img {
+    height: 180px;
+    width: 300px;
+    margin-bottom: -10px;
+}
+
+div.Loading_container h4 {
+    color:  var(--white);
+}
