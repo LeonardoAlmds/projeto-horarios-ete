@@ -8,10 +8,9 @@ const Footer = () => {
       <footer className="contact">
         <div className="left">
           <h3>Contato:</h3>
-          <h6>Número: +81 99999-9999</h6>
+          <h6>Telefone: +81 3719-9509</h6>
           <h6>Email: etemfl@hotmal.com</h6>
-          <h6>Whatsapp: +81 99999-9999</h6>
-          <h6>Instagram: @etemfl</h6> 
+          <h6>Instagram: <Link to='https://www.instagram.com/etemflcaruaruoficial/' target="_blank">@etemflcaruaruoficial</Link></h6> 
         </div>
 
         <div className="middle">

@@ -8,6 +8,17 @@
   justify-content: space-between;
 }
 
+.contact a {
+  text-decoration: none;
+  color: var(--yellowPE);
+  transition: 0.2s ease-in-out;
+}
+
+.contact a:hover {
+  color: var(--greenPE);
+  text-decoration: overline;
+}
+
 .left h6 {
   font-size: 18px;
   margin-left: 20px;
@@ -37,17 +48,6 @@
     font-size: 20px;
 }
 
-.middle h4 a {
-    text-decoration: none;
-    color: var(--yellowPE);
-    transition: 0.2s ease-in-out;
-}
-
-.middle a:hover {
-    color: var(--greenPE);
-    text-decoration: overline;
-}
-
 .right {
     text-align: right;
 }
@@ -55,17 +55,6 @@
 .right h6 {
     font-size: 18px;
     margin-right: 20px;
-}
-
-.right a {
-    text-decoration: none;
-    color: var(--yellowPE);
-    transition: 0.2s ease-in-out;
-}
-
-.right a:hover {
-    color: var(--greenPE);
-    text-decoration: overline;
 }
 
 .right img, svg {

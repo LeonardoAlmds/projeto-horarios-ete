@@ -14,3 +14,9 @@ div.Loading_container img {
 div.Loading_container h4 {
     color:  var(--white);
 }
+
+@media (max-width: 1300px){
+    div.Loading_container img {
+        transform: translateX(-14%);
+    }
+}
